@@ -1,11 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Box
-  description: The Box Content API gives you access to secure content management and
-    content experience features for use in your own app. It strives to be RESTful
-    and is organized around the main resources you&rsquo;re familiar with from the
-    Box web interface.
+  title: Box Get Memberships for User
+  description: Retrieves all of the group memberships for a given user. Note this
+    is only available to group admins. To retrieve group memberships for the user
+    making the API request, use the users/me/memberships endpoint.
   version: 1.0.0
 host: api.box.com
 basePath: /2.0
