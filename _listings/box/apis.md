@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/users-user-id-memberships-get.md
-- name: Box Create Membership
-  description: Used to add a member to a Group.
+- name: Box Get Membership
+  description: Fetches a specific group membership entry.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Memberships
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
