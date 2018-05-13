@@ -34,17 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/users-user-id-memberships-get.md
-- name: Box Delete Membership
-  description: Deletes a specific group membership.
+- name: Box Get Memberships for Group
+  description: Retrieves all of the members for a given group if the requesting user
+    has access (see Group Object member_viewability_level).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Memberships
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/groups-group-id-memberships-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/groups-group-id-memberships-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
