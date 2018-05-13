@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/users-user-id-memberships-get.md
-- name: Box Get Membership
-  description: Fetches a specific group membership entry.
+- name: Box Update Membership
+  description: Used to update a group membership.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Memberships
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/group-memberships-group-membership-id-put.md
 x-common:
 - type: x-base
   url: https://api.box.com/
