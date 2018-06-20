@@ -1,24 +1,21 @@
 ---
 name: Box
 x-slug: box
-description: Box Inc. (formerly Box.net) is an online file sharing and Cloud content
-  management service for enterprise companies. The company has adopted a freemium
-  business model, and provides 5 GB of free storage [3] for personal accounts. A mobile
-  version of the service is available for Android, BlackBerry, iOS, WebOS, and Windows
-  Phone devices. The company is based in Los Altos, California.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+description: Box is changing how you manage content across your business from simple
+  file sharing to building custom apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "443"
 tags: Memberships
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Box Create Membership
   x-api-slug: box
   description: Used to add a member to a Group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//group_memberships
   tags: Documents,Group, Memberships
@@ -28,7 +25,7 @@ apis:
 - name: Box Get Membership
   x-api-slug: box
   description: Fetches a specific group membership entry.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//group_memberships/{GROUP_MEMBERSHIP_ID}
   tags: Documents,Group, Memberships, Group, Membership
@@ -40,7 +37,7 @@ apis:
 - name: Box Update Membership
   x-api-slug: box
   description: Used to update a group membership.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//group_memberships/{GROUP_MEMBERSHIP_ID}
   tags: Documents,Group, Memberships, Group, Membership
@@ -50,7 +47,7 @@ apis:
 - name: Box Delete Membership
   x-api-slug: box
   description: Deletes a specific group membership.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//group_memberships/{GROUP_MEMBERSHIP_ID}
   tags: Documents,Group, Memberships, Group, Membership
@@ -63,7 +60,7 @@ apis:
   x-api-slug: box
   description: Retrieves all of the members for a given group if the requesting user
     has access (see Group Object member_viewability_level).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//groups/{GROUP_ID}/memberships
   tags: Documents,Groups, Group, , Memberships
@@ -77,7 +74,7 @@ apis:
   description: Retrieves all of the group memberships for a given user. Note this
     is only available to group admins. To retrieve group memberships for the user
     making the API request, use the users/me/memberships endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0//users/{USER_ID}/memberships
   tags: Documents,Users, User, , Memberships
@@ -90,7 +87,7 @@ apis:
   x-api-slug: box
   description: Box.net provides a sophisticated API for their online document sharing
     and collaboration web application.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Memberships
@@ -106,6 +103,8 @@ x-common:
   url: http://blog.box.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/box
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/box
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
@@ -116,6 +115,8 @@ x-common:
   url: https://developers.box.com/roadmap/
 - type: x-twitter
   url: https://twitter.com/BoxPlatform
+- type: x-twitter
+  url: https://twitter.com/BoxHQ
 - type: x-website
   url: http://box.com
 include: []
