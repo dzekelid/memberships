@@ -7,83 +7,211 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Memberships
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Groups API List group memberships
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - List group memberships
+  x-api-slug: groupsgroup-idmemberships-get
   description: List group memberships.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/memberships
-  tags: Groups,Group,Id,Memberships
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmemberships-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmemberships-get-openapi.md
-- name: Instructure Canvas Groups API Create a membership
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - Create a membership
+  x-api-slug: groupsgroup-idmemberships-post
   description: Create a membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/memberships
-  tags: Groups,Group,Id,Memberships
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmemberships-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmemberships-post-openapi.md
-- name: Instructure Canvas Groups API Leave a group
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - Leave a group
+  x-api-slug: groupsgroup-idmembershipsmembership-id-delete
   description: Leave a group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/memberships/membership_id
-  tags: Groups,Group,Id,Memberships,Membership,Id
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-openapi.md
-- name: Instructure Canvas Groups API Get a single group membership
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - Get a single group membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-get
   description: Get a single group membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/memberships/membership_id
-  tags: Groups,Group,Id,Memberships,Membership,Id
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-openapi.md
-- name: Instructure Canvas Groups API Update a membership
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - Update a membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-put
   description: Update a membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/memberships/membership_id
-  tags: Groups,Group,Id,Memberships,Membership,Id
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-openapi.md
-- name: Instructure Canvas Groups API
-  x-api-slug: instructure-canvas-groups-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
+- name: Instructure Canvas Groups API - Leave a group
+  x-api-slug: groupsgroup-idmembershipsmembership-id-delete
+  description: Leave a group.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
-  tags: Memberships
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-openapi.md
+- name: Instructure Canvas Groups API - Get a single group membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-get
+  description: Get a single group membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-openapi.md
+- name: Instructure Canvas Groups API - Update a membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-put
+  description: Update a membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-openapi.md
+- name: Instructure Canvas Groups API - Assign unassigned members
+  x-api-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+  description: Assign unassigned members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-openapi.md
+- name: Instructure Canvas Groups API - Update a membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-put
+  description: Update a membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-put-openapi.md
+- name: Instructure Canvas Groups API - Get a single group membership
+  x-api-slug: groupsgroup-idmembershipsmembership-id-get
+  description: Get a single group membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-get-openapi.md
+- name: Instructure Canvas Groups API - Leave a group
+  x-api-slug: groupsgroup-idmembershipsmembership-id-delete
+  description: Leave a group.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/groupsgroup-idmembershipsmembership-id-delete-openapi.md
+- name: Instructure Canvas Groups API - Assign unassigned members
+  x-api-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+  description: Assign unassigned members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-openapi.md
+- name: Instructure Canvas Utility APIs - List members of a collaboration.
+  x-api-slug: collaborationsidmembers-get
+  description: List members of a collaboration..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/collaborationsidmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/collaborationsidmembers-get-openapi.md
+- name: Instructure Canvas Utility APIs - List members of a collaboration.
+  x-api-slug: collaborationsidmembers-get
+  description: List members of a collaboration..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/collaborationsidmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/instructure/collaborationsidmembers-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss

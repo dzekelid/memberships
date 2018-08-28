@@ -7,79 +7,126 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivo
 x-kinRank: "7"
 x-alexaRank: "15894"
 tags: Memberships
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Pivotal Tracker Get Projects Project Memberships
-  x-api-slug: pivotal-tracker
+- name: Pivotal Tracker - Get Projects Project Memberships
+  x-api-slug: projectsproject-idmemberships-get
   description: Retrieves all memberships for a project.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///projects/{PROJECT_ID}/memberships
-  tags: Projects,PROJECT,ID,Memberships
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmemberships-get-openapi.md
-- name: Pivotal Tracker Post Projects Project Memberships
-  x-api-slug: pivotal-tracker
+- name: Pivotal Tracker - Post Projects Project Memberships
+  x-api-slug: projectsproject-idmemberships-post
   description: Adds a new membership to a project.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///projects/{PROJECT_ID}/memberships
-  tags: Projects,PROJECT,ID,Memberships
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmemberships-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmemberships-post-openapi.md
-- name: Pivotal Tracker Get Projects Project Memberships Membership
-  x-api-slug: pivotal-tracker
+- name: Pivotal Tracker - Get Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-get
   description: Retrieves information about a single membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///projects/{PROJECT_ID}/memberships/{MEMBERSHIP_ID}
-  tags: Projects,PROJECT,ID,Memberships,MEMBERSHIP,ID
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-openapi.md
-- name: Pivotal Tracker Delete Projects Project Memberships Membership
-  x-api-slug: pivotal-tracker
+- name: Pivotal Tracker - Delete Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-delete
   description: Delete projects project memberships membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
-  baseURL: https://www.pivotaltracker.com//services/v3///projects/{PROJECT_ID}/memberships/{MEMBERSHIP_ID}
-  tags: Projects,PROJECT,ID,Memberships,MEMBERSHIP,ID
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-openapi.md
-- name: Pivotal Tracker
-  x-api-slug: pivotal-tracker
-  description: Whether welding together two apps or forging a unique one, tap into
-    100% of the Tracker feature set with the very same API the Tracker team uses.
+- name: Pivotal Tracker - Get Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-get
+  description: Retrieves information about a single membership.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
   humanURL: http://pivotaltracker.com
   baseURL: https://www.pivotaltracker.com//services/v3/
-  tags: Memberships
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-openapi.md
+- name: Pivotal Tracker - Delete Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-delete
+  description: Delete projects project memberships membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-openapi.md
+- name: Pivotal Tracker - Delete Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-delete
+  description: Delete projects project memberships membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-delete-openapi.md
+- name: Pivotal Tracker - Get Projects Project Memberships Membership
+  x-api-slug: projectsproject-idmembershipsmembership-id-get
+  description: Retrieves information about a single membership.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg
+  humanURL: http://pivotaltracker.com
+  baseURL: https://www.pivotaltracker.com//services/v3/
+  tags: API LIfeyclessss, SaaS, Technology, Projects, Projects, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/memberships/master/_listings/pivotal-tracker/projectsproject-idmembershipsmembership-id-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pingometer.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pivotal.tracker.stack.network
 - type: x-blog
   url: http://www.pivotaltracker.com/community/tracker-blog
 - type: x-blog
   url: http://www.pivotaltracker.com/feed
 - type: x-crunchbase
   url: https://crunchbase.com/organization/pivotaltracker
-- type: x-email
-  url: TRACKER@PIVOTAL.IO
 - type: x-faq
   url: https://www.pivotaltracker.com/faq
 - type: x-github

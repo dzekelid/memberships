@@ -81,6 +81,80 @@ paths:
       - Memberships
       - Group
       - Membership
+    delete:
+      summary: Delete Membership
+      description: Deletes a specific group membership.
+      operationId: deleteGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-delete
+      parameters:
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
+  /groups/{GROUP_ID}/memberships:
+    get:
+      summary: Get Memberships for Group
+      description: Retrieves all of the members for a given group if the requesting
+        user has access (see Group Object member_viewability_level).
+      operationId: getGroupMemberships
+      x-api-path-slug: groupsgroup-idmemberships-get
+      parameters:
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_ID
+      - in: query
+        name: limit
+        description: The maximum number of items to return in a page
+      - in: query
+        name: offset
+        description: The item at which to begin the response
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Groups
+      - Group
+      - ""
+      - Memberships
+  /users/{USER_ID}/memberships:
+    get:
+      summary: Get Memberships for User
+      description: Retrieves all of the group memberships for a given user. Note this
+        is only available to group admins. To retrieve group memberships for the user
+        making the API request, use the users/me/memberships endpoint.
+      operationId: getUserGroupMembership
+      x-api-path-slug: usersuser-idmemberships-get
+      parameters:
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: query
+        name: limit
+        description: Default is 100
+      - in: query
+        name: offset
+        description: The item at which to begin the response
+      - in: path
+        name: USER_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Users
+      - User
+      - ""
+      - Memberships
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

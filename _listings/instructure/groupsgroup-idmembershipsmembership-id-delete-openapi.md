@@ -67,6 +67,66 @@ paths:
       - Memberships
       - Membership
       - Id
+    get:
+      summary: Get a single group membership
+      description: Get a single group membership.
+      operationId: get-a-single-group-membership
+      x-api-path-slug: groupsgroup-idmembershipsmembership-id-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+      - Group
+      - Id
+      - Memberships
+      - Membership
+      - Id
+    put:
+      summary: Update a membership
+      description: Update a membership.
+      operationId: update-a-membership
+      x-api-path-slug: groupsgroup-idmembershipsmembership-id-put
+      parameters:
+      - in: query
+        name: moderator
+        description: no description
+      - in: query
+        name: workflow_state
+        description: 'Currently, the only allowed value is u201cacceptedu201dnn        n        n          Allowed
+          values: accepted'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+      - Group
+      - Id
+      - Memberships
+      - Membership
+      - Id
+  /group_categories/{group_category_id}/assign_unassigned_members:
+    post:
+      summary: Assign unassigned members
+      description: Assign unassigned members.
+      operationId: assign-unassigned-members
+      x-api-path-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+      parameters:
+      - in: query
+        name: sync
+        description: The assigning is done asynchronously by default
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Categories
+      - Group
+      - Category
+      - Id
+      - Assign
+      - Unassigned
+      - Members
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -73,6 +73,28 @@ paths:
       - Memberships
       - MEMBERSHIP
       - ID
+    delete:
+      summary: Delete Projects Project Memberships Membership
+      description: Delete projects project memberships membership.
+      operationId: deleteProjectsProjectMembershipsMembership
+      x-api-path-slug: projectsproject-idmembershipsmembership-id-delete
+      parameters:
+      - in: path
+        name: MEMBERSHIP_ID
+        description: The ID of the membership
+      - in: path
+        name: PROJECT_ID
+        description: The ID of the project
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - PROJECT
+      - ID
+      - Memberships
+      - MEMBERSHIP
+      - ID
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
